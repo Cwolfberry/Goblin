@@ -25,6 +25,10 @@ public struct AboutView: View {
             }
             
             Text("footnote...")
+            
+            Button("FootBtn") {
+                print("GoblinKit: foot btn is clicked...")
+            }
         }
     }
 }
