@@ -8,7 +8,7 @@
 import Foundation
 
 extension String {
-    var isEmptyOrWhiteSpace: Bool {
+    public var isEmptyOrWhiteSpace: Bool {
         self.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
     }
 }
