@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "Goblin",
-    platforms: [.iOS(.v16), .macOS(.v10_15)],  // swfitui based on this playforms or newer.
+    platforms: [.iOS(.v16), .macOS(.v10_15), .visionOS(.v1)],  // swfitui based on this playforms or newer.
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
